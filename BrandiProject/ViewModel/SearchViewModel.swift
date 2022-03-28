@@ -9,11 +9,11 @@ import UIKit
 import SwiftyJSON
 
 enum SearchResult {
-    case Success
-    case NoResult
-    case InvalidQuery
-    case UnHandledError
-    case NetworkError
+    case Success//검색 완료
+    case NoResult//검색 결과 없음
+    case InvalidQuery//파라미터 오류
+    case UnHandledError//그외 오류
+    case NetworkError//네트워크 오류
 }
 
 class SearchResultMeta{
@@ -101,6 +101,8 @@ extension SearchViewModel {
         }
     }
     
+    /// 현재 검색 결과 다음 페이지 요청
+    /// - Parameter onComplete: 완료 코드
     func searchNextPage(onComplete:(@escaping (_ result:SearchResult)->Void)){
         if nowLoading == false && self.searchMeta?.hasMoreData() == true {
             page += 1
@@ -110,11 +112,15 @@ extension SearchViewModel {
         }
     }
     
+    /// 검색시 기존 정보 초기화
     func resetSearchResult(){
         documents.removeAll()
         page = 1
     }
     
+    
+    /// 현재 검색 결과 수 반환
+    /// - Returns: 검색 결과 수
     func numberOfSearchResult()->Int{
         return documents.count
     }

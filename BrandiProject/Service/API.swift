@@ -8,11 +8,6 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
-//
-//struct QueryParameters : Parameters{
-//    let query : String
-//    let page : Int
-//}
 
 class API: NSObject {
     static let shared = API()
