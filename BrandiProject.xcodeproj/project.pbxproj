@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6487C4A4FC2C78F8CF50A4E2 /* Pods_BrandiProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897CCEB7D53993988722005D /* Pods_BrandiProject.framework */; };
+		698E9CB8B3EAFD19125B1FBB /* Pods_BrandiProject_BrandiProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E530B1831051F12796F7D5EC /* Pods_BrandiProject_BrandiProjectUITests.framework */; };
+		95804663DD0463E875B3A307 /* Pods_BrandiProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785E4D3B14DA88DDCCA85DDA /* Pods_BrandiProjectTests.framework */; };
+		EC10008627F18BEF00FFB71A /* ImageViewerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC10008527F18BEF00FFB71A /* ImageViewerViewModel.swift */; };
+		EC23C7F427EF007800992DAA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC23C7F327EF007800992DAA /* API.swift */; };
 		EC50412027EEFC3A00E1726C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50411F27EEFC3A00E1726C /* AppDelegate.swift */; };
 		EC50412227EEFC3A00E1726C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50412127EEFC3A00E1726C /* SceneDelegate.swift */; };
 		EC50412427EEFC3A00E1726C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50412327EEFC3A00E1726C /* ViewController.swift */; };
@@ -16,6 +21,9 @@
 		EC50413727EEFC3C00E1726C /* BrandiProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50413627EEFC3C00E1726C /* BrandiProjectTests.swift */; };
 		EC50414127EEFC3C00E1726C /* BrandiProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50414027EEFC3C00E1726C /* BrandiProjectUITests.swift */; };
 		EC50414327EEFC3C00E1726C /* BrandiProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50414227EEFC3C00E1726C /* BrandiProjectUITestsLaunchTests.swift */; };
+		ECCC8F5A27EF4EA50033A5BC /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC8F5927EF4EA50033A5BC /* Document.swift */; };
+		ECCC8F5D27EF4FB20033A5BC /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC8F5C27EF4FB20033A5BC /* SearchViewModel.swift */; };
+		ECCC8F6027F0A1620033A5BC /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCC8F5F27F0A1620033A5BC /* ImageViewerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39A1196E407DA05CB80241BB /* Pods-BrandiProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandiProjectTests.release.xcconfig"; path = "Target Support Files/Pods-BrandiProjectTests/Pods-BrandiProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		41FBEC2272B4E7CA64991863 /* Pods-BrandiProject-BrandiProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandiProject-BrandiProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-BrandiProject-BrandiProjectUITests/Pods-BrandiProject-BrandiProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		759AD4C76505CF3B7F6124B8 /* Pods-BrandiProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandiProject.debug.xcconfig"; path = "Target Support Files/Pods-BrandiProject/Pods-BrandiProject.debug.xcconfig"; sourceTree = "<group>"; };
+		785E4D3B14DA88DDCCA85DDA /* Pods_BrandiProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrandiProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		897CCEB7D53993988722005D /* Pods_BrandiProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrandiProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E4FF80524928E7EC0B4B96 /* Pods-BrandiProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandiProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-BrandiProjectTests/Pods-BrandiProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B449E4DC858C8B255FC40DF9 /* Pods-BrandiProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandiProject.release.xcconfig"; path = "Target Support Files/Pods-BrandiProject/Pods-BrandiProject.release.xcconfig"; sourceTree = "<group>"; };
+		B50B9D198B51D0562C2E7B27 /* Pods-BrandiProject-BrandiProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandiProject-BrandiProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-BrandiProject-BrandiProjectUITests/Pods-BrandiProject-BrandiProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E530B1831051F12796F7D5EC /* Pods_BrandiProject_BrandiProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrandiProject_BrandiProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC10008527F18BEF00FFB71A /* ImageViewerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewModel.swift; sourceTree = "<group>"; };
+		EC23C7F327EF007800992DAA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		EC50411C27EEFC3A00E1726C /* BrandiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrandiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC50411F27EEFC3A00E1726C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC50412127EEFC3A00E1726C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,9 @@
 		EC50413C27EEFC3C00E1726C /* BrandiProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrandiProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC50414027EEFC3C00E1726C /* BrandiProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandiProjectUITests.swift; sourceTree = "<group>"; };
 		EC50414227EEFC3C00E1726C /* BrandiProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandiProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECCC8F5927EF4EA50033A5BC /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		ECCC8F5C27EF4FB20033A5BC /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		ECCC8F5F27F0A1620033A5BC /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6487C4A4FC2C78F8CF50A4E2 /* Pods_BrandiProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95804663DD0463E875B3A307 /* Pods_BrandiProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				698E9CB8B3EAFD19125B1FBB /* Pods_BrandiProject_BrandiProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1934227AC3492F323D91B6CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				897CCEB7D53993988722005D /* Pods_BrandiProject.framework */,
+				E530B1831051F12796F7D5EC /* Pods_BrandiProject_BrandiProjectUITests.framework */,
+				785E4D3B14DA88DDCCA85DDA /* Pods_BrandiProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6198DC7A7FACE74628574C69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				759AD4C76505CF3B7F6124B8 /* Pods-BrandiProject.debug.xcconfig */,
+				B449E4DC858C8B255FC40DF9 /* Pods-BrandiProject.release.xcconfig */,
+				B50B9D198B51D0562C2E7B27 /* Pods-BrandiProject-BrandiProjectUITests.debug.xcconfig */,
+				41FBEC2272B4E7CA64991863 /* Pods-BrandiProject-BrandiProjectUITests.release.xcconfig */,
+				A3E4FF80524928E7EC0B4B96 /* Pods-BrandiProjectTests.debug.xcconfig */,
+				39A1196E407DA05CB80241BB /* Pods-BrandiProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC23C7F227EF005600992DAA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EC23C7F327EF007800992DAA /* API.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		EC50411327EEFC3A00E1726C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +139,8 @@
 				EC50413527EEFC3C00E1726C /* BrandiProjectTests */,
 				EC50413F27EEFC3C00E1726C /* BrandiProjectUITests */,
 				EC50411D27EEFC3A00E1726C /* Products */,
+				6198DC7A7FACE74628574C69 /* Pods */,
+				1934227AC3492F323D91B6CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +157,12 @@
 		EC50411E27EEFC3A00E1726C /* BrandiProject */ = {
 			isa = PBXGroup;
 			children = (
+				ECCC8F5E27F0A1470033A5BC /* View */,
+				ECCC8F5827EF4E810033A5BC /* Model */,
+				ECCC8F5B27EF4FA10033A5BC /* ViewModel */,
+				EC23C7F227EF005600992DAA /* Service */,
 				EC50411F27EEFC3A00E1726C /* AppDelegate.swift */,
 				EC50412127EEFC3A00E1726C /* SceneDelegate.swift */,
-				EC50412327EEFC3A00E1726C /* ViewController.swift */,
 				EC50412527EEFC3A00E1726C /* Main.storyboard */,
 				EC50412827EEFC3C00E1726C /* Assets.xcassets */,
 				EC50412A27EEFC3C00E1726C /* LaunchScreen.storyboard */,
@@ -127,6 +188,32 @@
 			path = BrandiProjectUITests;
 			sourceTree = "<group>";
 		};
+		ECCC8F5827EF4E810033A5BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC8F5927EF4EA50033A5BC /* Document.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECCC8F5B27EF4FA10033A5BC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ECCC8F5C27EF4FB20033A5BC /* SearchViewModel.swift */,
+				EC10008527F18BEF00FFB71A /* ImageViewerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ECCC8F5E27F0A1470033A5BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC50412327EEFC3A00E1726C /* ViewController.swift */,
+				ECCC8F5F27F0A1620033A5BC /* ImageViewerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC50414627EEFC3C00E1726C /* Build configuration list for PBXNativeTarget "BrandiProject" */;
 			buildPhases = (
+				5511846A5661EA116184806B /* [CP] Check Pods Manifest.lock */,
 				EC50411827EEFC3A00E1726C /* Sources */,
 				EC50411927EEFC3A00E1726C /* Frameworks */,
 				EC50411A27EEFC3A00E1726C /* Resources */,
+				94E52A755C14176DE0FF3933 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC50414927EEFC3C00E1726C /* Build configuration list for PBXNativeTarget "BrandiProjectTests" */;
 			buildPhases = (
+				7306B6303C38E59CA33534BE /* [CP] Check Pods Manifest.lock */,
 				EC50412E27EEFC3C00E1726C /* Sources */,
 				EC50412F27EEFC3C00E1726C /* Frameworks */,
 				EC50413027EEFC3C00E1726C /* Resources */,
@@ -169,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC50414C27EEFC3C00E1726C /* Build configuration list for PBXNativeTarget "BrandiProjectUITests" */;
 			buildPhases = (
+				6C016E6907AD354A027C796F /* [CP] Check Pods Manifest.lock */,
 				EC50413827EEFC3C00E1726C /* Sources */,
 				EC50413927EEFC3C00E1726C /* Frameworks */,
 				EC50413A27EEFC3C00E1726C /* Resources */,
+				DB164C3ACE956E87E87DC02C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +345,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5511846A5661EA116184806B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrandiProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C016E6907AD354A027C796F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrandiProject-BrandiProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7306B6303C38E59CA33534BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrandiProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94E52A755C14176DE0FF3933 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrandiProject/Pods-BrandiProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrandiProject/Pods-BrandiProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrandiProject/Pods-BrandiProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB164C3ACE956E87E87DC02C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrandiProject-BrandiProjectUITests/Pods-BrandiProject-BrandiProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrandiProject-BrandiProjectUITests/Pods-BrandiProject-BrandiProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrandiProject-BrandiProjectUITests/Pods-BrandiProject-BrandiProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC50411827EEFC3A00E1726C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECCC8F5D27EF4FB20033A5BC /* SearchViewModel.swift in Sources */,
 				EC50412427EEFC3A00E1726C /* ViewController.swift in Sources */,
+				ECCC8F6027F0A1620033A5BC /* ImageViewerViewController.swift in Sources */,
 				EC50412027EEFC3A00E1726C /* AppDelegate.swift in Sources */,
+				EC23C7F427EF007800992DAA /* API.swift in Sources */,
 				EC50412227EEFC3A00E1726C /* SceneDelegate.swift in Sources */,
+				EC10008627F18BEF00FFB71A /* ImageViewerViewModel.swift in Sources */,
+				ECCC8F5A27EF4EA50033A5BC /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +632,7 @@
 		};
 		EC50414727EEFC3C00E1726C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 759AD4C76505CF3B7F6124B8 /* Pods-BrandiProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +660,7 @@
 		};
 		EC50414827EEFC3C00E1726C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B449E4DC858C8B255FC40DF9 /* Pods-BrandiProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +688,7 @@
 		};
 		EC50414A27EEFC3C00E1726C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E4FF80524928E7EC0B4B96 /* Pods-BrandiProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +708,7 @@
 		};
 		EC50414B27EEFC3C00E1726C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39A1196E407DA05CB80241BB /* Pods-BrandiProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +728,7 @@
 		};
 		EC50414D27EEFC3C00E1726C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50B9D198B51D0562C2E7B27 /* Pods-BrandiProject-BrandiProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +746,7 @@
 		};
 		EC50414E27EEFC3C00E1726C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41FBEC2272B4E7CA64991863 /* Pods-BrandiProject-BrandiProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
